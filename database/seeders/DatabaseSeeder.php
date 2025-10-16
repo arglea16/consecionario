@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Dealership;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -23,5 +24,11 @@ class DatabaseSeeder extends Seeder
                 'email_verified_at' => now(),
             ]
         );
+
+         $this->call([
+            DealershipTableSeeder::class,
+            // otros seeders si tienes
+        ]);
+
     }
 }

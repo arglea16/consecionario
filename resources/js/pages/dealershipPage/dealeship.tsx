@@ -42,7 +42,10 @@ export default function Dealership() {
                         {/* Información del carro */}
                         <div className="flex-1 overflow-auto rounded-xl border border-sidebar-border/70 bg-black p-4 dark:border-sidebar-border">
                             {/* Aquí va la información dinámica del carro */}
-                            <p>Información del carro aquí</p>
+                            <p>model:Regera</p>
+                            <p>brand:koenigsegg</p>
+                            <p>engine:3.0L Turbo I6</p>
+                            <p>power:335 hp</p>
                         </div>
                     </div>
                 </div>
