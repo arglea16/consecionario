@@ -16,6 +16,7 @@ class Dealership extends Model
         'power',
         'price',
         'year',
+        'model_3d',
         'image_path',
     ];
 }

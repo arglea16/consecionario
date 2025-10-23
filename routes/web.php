@@ -15,6 +15,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 
 Route::get('dealershipPage/dealeship',[DealershipController::class,'index'])->name('dealership');
+Route::get('/cars/search',[DealershipController::class,'search']);
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';

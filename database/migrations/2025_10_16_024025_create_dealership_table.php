@@ -20,6 +20,7 @@ return new class extends Migration
              $table->decimal('price', 10, 2);  // Precio con dos decimales
              $table->year('year');             // Año del carro
              $table->string('image_path');     // Ruta o nombre del archivo de la imagen
+             $table->string('model_3d');       // Ruta o nombre del modelo 3d
              $table->timestamps();             // created_at y updated_at
         });
     }
