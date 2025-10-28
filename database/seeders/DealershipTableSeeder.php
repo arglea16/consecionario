@@ -254,6 +254,18 @@ class DealershipTableSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'model' => 'reguera',
+                'brand' => 'Koniseeg',
+                'engine' => 'Motor Central v12',
+                'power' => '1900 hp',
+                'price' => 3000000.00,
+                'year' => 2025,
+                'image_path' => 'KoenigseggRegera.jpg',
+                'model_3d' => 'koenigsegg_one-1.glb',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ]);
     }
 }
