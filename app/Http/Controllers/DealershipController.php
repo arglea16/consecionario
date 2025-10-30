@@ -45,6 +45,11 @@ class DealershipController extends Controller
         }
     }
 
+    public function carousel()
+    {
+        return Dealership::select('model', 'price', 'image_path')->get();
+    }
+
     /**
      * Display the specified resource.
      */

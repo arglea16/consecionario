@@ -1,3 +1,4 @@
+import CarCarousel from '@/components/carousel/CarCarousel';
 import { dashboard, login, register } from '@/routes';
 import { type SharedData } from '@/types';
 import { Head, Link, usePage } from '@inertiajs/react';
@@ -43,7 +44,43 @@ export default function Welcome() {
                     </nav>
                 </header>
 
-                <div></div>
+                <div>
+                    <CarCarousel />
+                </div>
+
+                <div>
+                    <p>¿Quienes somos?</p>
+                    <p>
+                        Somos un concesionario multimarca dedicados desde hace
+                        10 años a la venta y importación de carros. A lo largo
+                        de esta década, nos hemos consolidado como un referente
+                        confiable en el mercado automotriz, ofreciendo una
+                        amplia variedad de vehículos de las mejores marcas,
+                        adaptados a las necesidades y gustos de cada cliente.
+                    </p>
+                    <p>
+                        Nuestro compromiso es brindar productos de calidad, con
+                        total transparencia y un servicio personalizado que
+                        garantice la satisfacción y confianza de quienes nos
+                        eligen. Contamos con un equipo profesional altamente
+                        capacitado que acompaña a nuestros clientes en cada
+                        paso, desde la selección hasta la entrega del vehículo,
+                        asegurando una experiencia única y segura.
+                    </p>
+                    <p>
+                        Además, nos enorgullece mantener procesos de importación
+                        ágiles y confiables, lo que nos permite ofrecer las
+                        últimas novedades y modelos exclusivos a precios
+                        competitivos. En nuestro concesionario, la pasión por
+                        los autos se combina con la atención cercana para hacer
+                        realidad el sueño de poseer un vehículo ideal.
+                    </p>
+                    <p>
+                        ¡Ven y descubre por qué somos la mejor opción para
+                        quienes buscan calidad, variedad y confianza al comprar
+                        su próximo carro!
+                    </p>
+                </div>
             </div>
         </>
     );
